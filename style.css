@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(148, 38%, 91%);
+    font-size: 14px;
+}
+
+.container{
+    max-width: 600px;
+    display: block;
+    background-color: hsl(148, 38%, 91%);
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+#contact-form{
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+h1{
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.form-group{
+    display: flex;
+    margin-bottom: 20px;
+    gap: 4px;
+    line-height: 25px;
+    /* font-size: 0.8rem; */
+}
+
+#name{
+    /* display: block; */
+    width: 240px;
+    border-radius: 5px;
+    height: 30px;
+    border: 1px solid #ccc;
+    padding: 0 10px;
+}
+
+.Fname{
+    margin:5px;
+    font-size: 0.7rem;
+}
+
+.email{
+    display: block;
+    /* gap: 4px; */
+    line-height: 10px;
+    margin-bottom: 20px;
+}
+.emails{
+    line-height:25px;
+    font-size: 0.7rem;
+
+}
+#email{
+    width: 500px;
+    border-radius: 5px;
+    height: 30px;
+    border: 1px solid #ccc;
+    padding: 0 10px;  
+}
+
+h2{
+    font-size: 1rem;
+    margin: 5px;
+    color:hsl(187, 24%, 22%);
+    font-weight: 400;
+}
+
+.radio{
+    display: flex;
+    justify-content: space-between;
+    gap: 4px;
+    line-height: 25px;
+    margin:5px;
+    font-size: 0.7rem;
+    margin-bottom: 20px;
+}
+
+.radio1{
+    /* display: block; */
+    width: 250px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap : 10px;
+    height: 30px;
+    border: 1px solid #ccc;
+    padding: 0 10px;
+}
+.radio2{
+    /* display: block; */
+    width: 250px;
+    margin-right: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap : 10px;
+    height: 30px;
+    border: 1px solid #ccc;
+    padding: 0 10px;
+}
+
+#message{
+    width: 500px;
+    height: 100px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+button{
+    background-color: hsl(169, 82%, 27%);
+    width: 500px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: 400px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: hsla(54, 43%, 36%, 0.459);
+}
+
+#consent{
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
